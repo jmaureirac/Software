@@ -5,16 +5,18 @@ function myFunction(rut) {
      var suma = 0;
      var dv;
      for(i=(elRut.length-1); i>=0; i--){
-         factor = factor > 7 ? 2 : factor;
-         suma += parseInt(elRut[i])*parseInt(factor++);
+         suma += parseInt(elRut[i])*parseInt(factor);
+         factor++;
+         if(factor>7){factor=2;}
      }
      dv = 11 -(suma % 11);
      if(dv == 11){
          dv = 0;
      }else if (dv == 10){
-         dv = "k";
+         dv = "K";
      }
-     if(dv == RUT[1].toLowerCase()){
+     if(RUT[1] == 'k'){RUT[1]= 'K';}
+     if(dv == RUT[1]){
          alert("El rut es válido!!");
          return true;
      }else{         
