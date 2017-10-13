@@ -1,5 +1,4 @@
 function myFunction(rut) {
-
      var RUT = rut.split("-");
      var elRut = RUT[0].toArray();
      var factor = 2;
@@ -15,11 +14,11 @@ function myFunction(rut) {
      }else if (dv == 10){
          dv = "k";
      }
-
      if(dv == RUT[1].toLowerCase()){
          alert("El rut es válido!!");
          return true;
      }else{         
          alert("El rut es incorrecto");
          return false;
-         }}
+         }
+}
