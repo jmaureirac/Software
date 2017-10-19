@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Page</title>
+        <title>..:: DIFUSION UTEM ::..</title>
         <meta name="description" content="Portal de servicios para alumnos de la Universidad Tecnológica Metropolitana" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta charset="utf-8" />
