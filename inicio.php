@@ -67,7 +67,7 @@
 
                                 <img class='nav-user-photo' src="/foto.jpg" />
                                 <span class="user-info">
-                                    <small>Hola </small>
+                                    <small>Hola Expositor</small>
                                     </span>
 
                                 <i class="ace-icon fa fa-caret-down"></i>
